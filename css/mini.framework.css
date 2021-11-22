@@ -1,0 +1,118 @@
+/*
+/* flex-{direction}-{justify-content}
+*/
+.flex-row-center,
+.flex-row-between,
+.flex-row-end,
+.flex-row-start,
+.flex-column-center,
+.flex-column-start,
+.flex-column-end,
+.flex-column-between
+{
+	display:flex;
+}
+
+.flex-row-center:not(.reverse),
+.flex-row-between:not(.reverse),
+.flex-row-end:not(.reverse),
+.flex-row-start:not(.reverse)
+{
+	flex-direction:row;
+}
+
+.flex-column-center:not(.reverse),
+.flex-column-start:not(.reverse),
+.flex-column-end:not(.reverse),
+.flex-column-between:not(.reverse)
+{
+	flex-direction:column;
+}
+
+.flex-row-center.reverse,
+.flex-row-start.reverse,
+.flex-row-end.reverse,
+.flex-row-between.reverse
+{
+	flex-direction:row-reverse;
+}
+
+.flex-column-center.reverse,
+.flex-column-start.reverse,
+.flex-column-end.reverse,
+.flex-column-between.reverse
+{
+	flex-direction:column-reverse;
+}
+
+.flex-row-center,
+.flex-column-center
+{	
+	justify-content:center;	
+}
+
+.flex-column-between,
+.flex-row-between
+{	
+	justify-content:space-between;
+}
+
+.flex-column-start,
+.flex-row-start
+{		
+	justify-content:flex-start;
+}
+
+.flex-column-end,
+.flex-row-end
+{		
+	justify-content:flex-end;
+}
+
+.flex-row-end.wrap,
+.flex-row-start.wrap,
+.flex-row-between.wrap,
+.flex-row-center.wrap,
+.flex-column-start.wrap,
+.flex-column-end.wrap,
+.flex-column-between.wrap,
+.flex-column-center.wrap
+{
+	flex-wrap:wrap;
+}
+
+.flex-row-end.start,
+.flex-row-start.start,
+.flex-row-between.start,
+.flex-row-center.start,
+.flex-column-start.start,
+.flex-column-end.start,
+.flex-column-between.start,
+.flex-column-center.start
+{
+	align-items:flex-start;
+}
+
+.flex-row-end.end,
+.flex-row-start.end,
+.flex-row-between.end,
+.flex-row-center.end,
+.flex-column-start.end,
+.flex-column-end.end,
+.flex-column-between.end,
+.flex-column-center.end
+{
+	align-items:flex-end;
+}
+
+.flex-row-end.stretch,
+.flex-row-start.stretch,
+.flex-row-between.stretch,
+.flex-row-center.stretch,
+.flex-column-start.stretch,
+.flex-column-end.stretch,
+.flex-column-between.stretch,
+.flex-column-center.stretch
+{
+	align-self:stretch;
+}

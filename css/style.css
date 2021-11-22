@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.row
+{
+    margin:0 auto;
+    padding:20px 0px;
+    border-bottom:1px solid rgba(0,0,0,0.5);
+}
+
+.square
+{
+    width:80px;
+    height:80px;
+    background-color:black;
+    margin:10px;
+}
+
+.square.red
+{
+    background-color: red;
+}
+
+.square.yellow
+{
+    background-color: yellow;
+}
+
+.square.blue
+{
+    background-color: blue;
+}
